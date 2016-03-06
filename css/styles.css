@@ -1,6 +1,7 @@
 html {
 	box-sizing: border-box;
 	margin:0;
+	font-family: "lora";
 }
 
 body {
@@ -27,7 +28,7 @@ body {
 .title {
 	margin:0;
 	padding:0;
-	font-family: "lora";
+	font-family: "lora"
 	font-style: italic;
 	font-weight: 200;
 	padding-bottom:2rem;
@@ -65,6 +66,7 @@ body {
 	background-color: #fdbc31;
 	padding: 1rem;
 	font-family: "Open Sans Condensed";
+	font-weight: 300;
 }
 
 .content {
@@ -78,8 +80,42 @@ body {
 	font-weight: 200;
 	color: #7c4431;
 }
-
 footer {
+	padding-top:4rem;
 	height:10rem;
 	background-color: #fdbc31;
+	color:#2c0ce4;
+	font-family: "lora";
+	text-align:center;
+	font-style: italic;
 }
+
+address a {
+	text-decoration:none;
+}
+
+media (min-width: 700px) {
+  .example-style1 {
+    /*
+     * Styles for tablet size and larger here.
+     * Here is where you would overwrite any base styles that you want to change 
+     * for this breakpoint.
+     * Base styles are inherited here so no need to repeat formerly defined base 
+     * properties that will remain unchanged.
+     * Write these styles 2nd.
+     */
+  }
+}
+@media (min-width: 1024px) {
+  .example-style1 {
+    /*
+     * Styles for desktop size and larger here.
+     * Here is where you would overwrite your base and tablet-size styles
+     * that you want to change for this breakpoint.
+     * Base styles and your 700px breakpoint styles (your tablet styles) are inherited
+     * here so no need to repeat formerly defined properties that will remain unchanged.
+     * Write these styles 3rd.
+     */
+  }
+}
+
