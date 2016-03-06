@@ -45,6 +45,7 @@ body {
 }
 
 .buttons a {
+	border: solid 1px #fdbc31;
  	border-radius: 50%;
  	width: 4rem;
  	height: 4rem;
@@ -54,6 +55,8 @@ body {
 	background-color: #ffff72;
 	padding: 1rem;
 	font-family: "Open Sans Condensed";
+	box-shadow: 5px 5px 15px #7c4431;
+
 }
 
 .buttons a:hover {
@@ -85,9 +88,10 @@ body {
 }
 
 .subhead {
-	color: #fdbc31;
+	text-align: center;
+	color: #47d9f6;
 	font-family: "Open Sans Condensed";
-	font-style: none;
+	font-style: normal;
 	font-size: 1.8rem;
 }
 
