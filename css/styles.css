@@ -11,16 +11,14 @@ body {
 
 
 .masthead {
-	background-color: #47d9f6;
 	margin: 0;
 	text-align: center;
 }
 
 .name {
 	font-family: "Open Sans Condensed";
-	color: #ffff72;
-	font-size: 5rem;
-	text-shadow: 2px 2px #fdbc31;
+	color: #000000;
+	font-size: 7rem;
 	margin:0;
 
 }
@@ -31,68 +29,60 @@ body {
 	font-family: "lora";
 	font-style: italic;
 	font-weight: 200;
-	padding-bottom:2rem;
 	font-size:1.2rem;
-	color: #7c4431;
+	color: #000000;
 }
+
 .navbar {
-	padding-left:0;
+	padding:0;
 }
 .navbar li {
 	margin: 1rem;
 	display: inline-block;
-	padding-top:3rem;
 }
 
 .buttons a {
-	border: solid 1px #fdbc31;
- 	border-radius: 50%;
- 	width: 4rem;
- 	height: 4rem;
  	text-align: center;
 	text-decoration: none;
-	color: #2c0ce4;
-	background-color: #ffff72;
-	padding: 1rem;
+	color: #000000;
+	padding: .2rem;
 	font-family: "Open Sans Condensed";
-	box-shadow: 5px 5px 15px #7c4431;
+	font-weight:700;
 
 }
 
 .buttons a:hover {
- 	border-radius: 50%;
- 	width: 4rem;
- 	height: 4rem;
- 	text-align: center;
-	text-decoration: none;
-	color: #2c0ce4;
-	background-color: #fdbc31;
-	padding: 1rem;
+	color: #000000;
+	padding: .2rem;
 	font-family: "Open Sans Condensed";
-	font-weight: 300;
+	font-weight:300;
+	width: 8rem;
 }
 
 .content {
-	background-color: #ffff72;
-	border-top: 2px solid #2c0ce4;
-	padding:3rem;
-	margin: 0;
+	background:url(../images/background.jpg) no-repeat center; 
+    background-size: cover;
+    height:30rem;
+	margin:0;
 	font-family: "lora";
 	font-style: italic;
 	font-weight: 200;
-	color: #7c4431;
+	color:#FFFFFF;
+
 }
 
 .content a {
 	text-decoration: none;
 }
 
+
 .subhead {
 	text-align: center;
-	color: #47d9f6;
+	color: #333333;
 	font-family: "Open Sans Condensed";
 	font-style: normal;
 	font-size: 1.8rem;
+	padding-bottom: 13rem;
 }
 
 h2.more {
@@ -104,17 +94,16 @@ h2.more {
 footer {
 	padding-top:2rem;
 	height:6rem;
-	background-color: #fdbc31;
-	color:#7c4431;
+	background-color: #000000;
+	color:#999999;
 	font-family: "lora";
 	text-align:center;
 	font-style: italic;
-	border-top: 2px double #2c0ce4;
 }
 
 address a {
 	text-decoration:none;
-	color:#7c4431;
+	color:#999999;
 }
 
 media (min-width: 700px) {
@@ -130,15 +119,10 @@ media (min-width: 700px) {
   }
 }
 @media (min-width: 1024px) {
-  .example-style1 {
-    /*
-     * Styles for desktop size and larger here.
-     * Here is where you would overwrite your base and tablet-size styles
-     * that you want to change for this breakpoint.
-     * Base styles and your 700px breakpoint styles (your tablet styles) are inherited
-     * here so no need to repeat formerly defined properties that will remain unchanged.
-     * Write these styles 3rd.
-     */
-  }
+
+.masthead{
+	float: left;
+	width:25rem;
+	height: 100%;
 }
 
