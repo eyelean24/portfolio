@@ -149,3 +149,7 @@ media (min-width: 700px) {
 	width: 10rem;
 	padding: 2rem;
 }
+
+.content a {
+	color: #990000;
+}
