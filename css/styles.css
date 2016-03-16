@@ -1,7 +1,7 @@
 html {
 	box-sizing: border-box;
 	margin:0;
-	font-family: "lora";
+	font-family: "Lora";
 }
 
 body {
@@ -26,7 +26,7 @@ body {
 .title {
 	margin:0;
 	padding:0;
-	font-family: "lora";
+	font-family: "Lora";
 	font-style: italic;
 	font-weight: 200;
 	font-size:1.2rem;
@@ -44,27 +44,24 @@ body {
 .buttons a {
  	text-align: center;
 	text-decoration: none;
-	color: #000000;
 	padding: .2rem;
 	font-family: "Open Sans Condensed";
 	font-weight:700;
-
+	color: #303030;
 }
 
 .buttons a:hover {
 	color: #000000;
-	padding: .2rem;
-	font-family: "Open Sans Condensed";
-	font-weight:300;
-	width: 8rem;
+	text-decoration: underline;
 }
 
 .content {
-	background:url(../images/background.jpg) no-repeat center; 
+	background:url(../images/headphones.jpg) no-repeat center; 
     background-size: cover;
     height:30rem;
 	margin:0;
-	font-family: "lora";
+	padding-top: 1.5rem;
+	font-family: "Lora";
 	font-style: italic;
 	font-weight: 200;
 	color:#FFFFFF;
@@ -75,14 +72,47 @@ body {
 	text-decoration: none;
 }
 
+.words {
+	margin:0 auto;
+	width: 15rem;
+	padding: 2rem;
+	background-color: rgba(96,96,96,.5);
+}
 
+.words a{
+	color:#303030;
+	font-weight:700;
+}
+
+.words a:hover{
+	color:#000;
+}
+
+
+.screenshots {
+	text-align:center;
+	padding-bottom:9rem;
+}
+.screenshots li {
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: 1.19rem;
+}
+.screenshots img {
+	height: 10rem;
+	width: 12rem;
+	border: 1px solid #FFF;
+	border-radius: 10%;
+	margin:1rem;
+}
 .subhead {
 	text-align: center;
-	color: #333333;
+	/*color: #333333;*/
 	font-family: "Open Sans Condensed";
 	font-style: normal;
 	font-size: 1.8rem;
-	padding-bottom: 13rem;
+	color: #fff;
+	text-shadow: 2px 2px #444;
 }
 
 h2.more {
@@ -91,19 +121,29 @@ h2.more {
 
 }
 
+input, textarea {
+	margin: 1rem 0;
+	padding:.5rem;
+	width: 12rem;
+	background-color: #999;
+	border-radius:5px;
+	
+}
+
 footer {
 	padding-top:2rem;
 	height:6rem;
 	background-color: #000000;
 	color:#999999;
-	font-family: "lora";
+	font-family: "Lora";
 	text-align:center;
 	font-style: italic;
+	border-top:1px solid #fff;
 }
 
 address a {
 	text-decoration:none;
-	color:#999999;
+	color:#303030;
 }
 
 media (min-width: 700px) {
@@ -123,7 +163,6 @@ media (min-width: 700px) {
 .masthead{
 	float: left;
 	width:20rem;
-	height: 100%;
 	background-color: white;
 	margin: 0;
 }
@@ -136,8 +175,8 @@ media (min-width: 700px) {
 	font-size: 5.5rem;
 }
 
-.navbar {
-	display: inline;
+.navbar li {
+	display: block;
 }
 
 .subhead {
@@ -145,11 +184,14 @@ media (min-width: 700px) {
 	padding: 1rem;
 }
 
-.words {
-	width: 10rem;
+
+
+.screenshots li {
+	display:inline;
 	padding: 2rem;
 }
 
-.content a {
-	color: #990000;
+.buttons a {
+ 	font-size: 1.5rem;
 }
+
