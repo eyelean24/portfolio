@@ -9,6 +9,10 @@ body {
 	padding: 0;
 }
 
+a:active {
+	color:#000;
+}
+
 
 .masthead {
 	margin: 0;
@@ -17,7 +21,7 @@ body {
 
 .name {
 	font-family: "Open Sans Condensed";
-	color: #000000;
+	color: #000;
 	font-size: 7rem;
 	margin:0;
 
@@ -30,7 +34,7 @@ body {
 	font-style: italic;
 	font-weight: 200;
 	font-size:1.2rem;
-	color: #000000;
+	color: #000;
 }
 
 .navbar {
@@ -55,10 +59,10 @@ body {
 	text-decoration: underline;
 }
 
-.content {
+.main {
 	background:url(../images/headphones.jpg) no-repeat center; 
     background-size: cover;
-    height:30rem;
+    height:35rem;
 	margin:0;
 	padding-top: 1.5rem;
 	font-family: "Lora";
@@ -68,23 +72,24 @@ body {
 
 }
 
-.content a {
+.main a {
 	text-decoration: none;
 }
 
-.words {
+.content {
 	margin:0 auto;
 	width: 15rem;
 	padding: 2rem;
 	background-color: rgba(96,96,96,.5);
+	border-radius: 10px;
 }
 
-.words a{
+.content a{
 	color:#303030;
 	font-weight:700;
 }
 
-.words a:hover{
+.content a:hover{
 	color:#000;
 }
 
@@ -107,7 +112,6 @@ body {
 }
 .subhead {
 	text-align: center;
-	/*color: #333333;*/
 	font-family: "Open Sans Condensed";
 	font-style: normal;
 	font-size: 1.8rem;
@@ -121,14 +125,30 @@ h2.more {
 
 }
 
+form {
+	text-align: center;
+}
+
 input, textarea {
 	margin: 1rem 0;
 	padding:.5rem;
 	width: 12rem;
 	background-color: #999;
 	border-radius:5px;
-	
+	border: 1px solid #444;
 }
+
+input[type=submit] {
+    background-color: #444;
+    color:#FFF;
+    width: 4rem;
+    border: 1px solid #FFF;
+    text-align:center;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight:200;
+ }
+
 
 footer {
 	padding-top:2rem;
@@ -139,6 +159,7 @@ footer {
 	text-align:center;
 	font-style: italic;
 	border-top:1px solid #fff;
+	margin-top: 2.8rem;
 }
 
 address a {
@@ -167,7 +188,8 @@ media (min-width: 700px) {
 	margin: 0;
 }
 
-.content {
+.main {
+	padding-top:0;
 	margin-left:20rem;
 }
 
@@ -181,10 +203,9 @@ media (min-width: 700px) {
 
 .subhead {
 	margin: 0;
-	padding: 1rem;
+	font-size:2.5rem;
+	padding: 3rem 1rem;
 }
-
-
 
 .screenshots li {
 	display:inline;
