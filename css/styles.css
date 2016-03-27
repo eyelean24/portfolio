@@ -95,26 +95,21 @@ a:active {
 
 
 .screenshots {
-	text-align:center;
-	margin-bottom:9rem;
-	background-color: rgba(96,96,96,.5);
-	border-radius: 10px;
-	margin-left:15rem;
-	margin-right:15rem;
-	padding-left:0;
+	padding: 0;
+	text-align: center;
 }
 .screenshots li {
-	text-decoration: none;
 	list-style-type: none;
-	margin-top: 1.19rem;
-	padding:0;
+	margin-bottom: 2rem;
+}
+.screenshots li:last-child {
+	margin-bottom: 0;
 }
 .screenshots img {
 	height: 10rem;
 	width: 12rem;
 	border: 1px solid #FFF;
 	border-radius: 10%;
-	margin:1rem;
 }
 .subhead {
 	text-align: center;
@@ -210,11 +205,6 @@ media (min-width: 700px) {
 	margin: 0;
 	font-size:2.5rem;
 	padding: 3rem 1rem;
-}
-
-.screenshots li {
-	display:inline;
-	padding: 3rem;
 }
 
 .buttons a {
