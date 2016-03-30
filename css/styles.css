@@ -65,6 +65,7 @@ a:active {
     background-attachment: fixed;
 	margin:0;
 	padding-top: 1.5rem;
+	padding-bottom: 3rem;
 	font-family: "Lora";
 	font-style: italic;
 	font-weight: 200;
@@ -133,7 +134,7 @@ form {
 input, textarea {
 	margin: 1rem 0;
 	padding:.5rem;
-	width: 12rem;
+	width: 13rem;
 	background-color: #999;
 	border-radius:5px;
 	border: 1px solid #444;
@@ -167,7 +168,7 @@ address a {
 	color:#303030;
 }
 
-media (min-width: 700px) {
+@media (min-width: 700px) {
   .example-style1 {
     /*
      * Styles for tablet size and larger here.
@@ -197,8 +198,12 @@ media (min-width: 700px) {
 	font-size: 5.5rem;
 }
 
+.navbar {
+	padding-top: 2rem;
+}
 .navbar li {
 	display: block;
+	padding:.8rem;
 }
 
 .subhead {
