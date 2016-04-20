@@ -7,8 +7,13 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	min-width:320px;
 }
 
+p {
+	padding: 0;
+	margin: 0 0 1.5rem 0;
+}
 a:active {
 	color:#000;
 }
@@ -179,6 +184,18 @@ address a {
      * Write these styles 2nd.
      */
   }
+  .content {
+  	width: 70%;
+  	padding-right: 5%;
+  	padding-left: 5%;
+  }
+  .left, .right {
+	width: 45%;
+	display: inline-block;
+  }
+  .left {
+  	margin-right: 9%;
+  }
 }
 @media (min-width: 1024px) {
 
@@ -217,3 +234,4 @@ address a {
 .buttons a {
  	font-size: 1.5rem;
 }
+
