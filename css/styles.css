@@ -188,6 +188,7 @@ address a {
   	width: 70%;
   	padding-right: 5%;
   	padding-left: 5%;
+  	overflow: hidden;
   }
   .left, .right {
 	width: 45%;
@@ -195,6 +196,10 @@ address a {
   }
   .left {
   	margin-right: 9%;
+  	float:left;
+  }
+  .right {
+  	float: right;
   }
 }
 @media (min-width: 1024px) {
