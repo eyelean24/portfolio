@@ -18,7 +18,10 @@ a:active {
 	color:#000;
 }
 
-
+p.left a {
+	color:#FFF;
+	text-decoration: underline;
+}
 .masthead {
 	margin: 0;
 	text-align: center;
@@ -174,16 +177,6 @@ address a {
 }
 
 @media (min-width: 700px) {
-  .example-style1 {
-    /*
-     * Styles for tablet size and larger here.
-     * Here is where you would overwrite any base styles that you want to change 
-     * for this breakpoint.
-     * Base styles are inherited here so no need to repeat formerly defined base 
-     * properties that will remain unchanged.
-     * Write these styles 2nd.
-     */
-  }
   .content {
   	width: 70%;
   	padding-right: 5%;
@@ -201,7 +194,19 @@ address a {
   .right {
   	float: right;
   }
+
+  .screenshots li {
+  	display: inline-block;
+  	padding-left: 1rem;
+  	padding-right: 1rem;
+  }
+
+  input, textarea {
+  	width: 25rem;
+  }
 }
+
+
 @media (min-width: 1024px) {
 
 .masthead{
